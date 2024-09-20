@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Tic-Tac-Toe</h1>
+        <div id="board" class="d-flex flex-wrap justify-content-center" style="width: 300px; margin: auto;">
+            <div class="cell border" data-index="0"></div>
+            <div class="cell border" data-index="1"></div>
+            <div class="cell border" data-index="2"></div>
+            <div class="cell border" data-index="3"></div>
+            <div class="cell border" data-index="4"></div>
+            <div class="cell border" data-index="5"></div>
+            <div class="cell border" data-index="6"></div>
+            <div class="cell border" data-index="7"></div>
+            <div class="cell border" data-index="8"></div>
+        </div>
+        <div class="text-center mt-4">
+            <h2 id="status">Player X's turn</h2>
+            <button id="resetBtn" class="btn btn-primary mt-3">Reset Game</button>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="./script.js"></script>
